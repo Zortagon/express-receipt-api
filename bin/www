@@ -75,5 +75,5 @@ serverInstance.on("listening", () => {
               ? "PIPE " + addr
               : "PORT " + addr.port;
     // Log a message when the server is running
-    console.info(chalk(`[⚡]: Server is running on: ${chalk.blue.bold(bind)}`));
+    console.info(chalk(`[INFO]: Server is running on: ${chalk.blue.bold(bind)}`));
 });
